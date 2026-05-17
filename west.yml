@@ -9,8 +9,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: cirque-input-module
+    - name: zmk-input-behavior-listener
       remote: petejohanson
       revision: main
-  self:
-    path: config
