@@ -51,9 +51,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
     compatible = "zmk,input-listener";
     device = <&glidepoint>;
 
-    input-processors =
-        <&xy_transform (INPUT_TRANSFORM_Y_INVERT)>
-        , <&cursor_scaler 2 1>;
+    input-processors = <&xy_transform (INPUT_TRANSFORM_Y_INVERT) &cursor_scaler 2 1>;
 };
 
     xy_transform: xy_transform {
@@ -114,14 +112,8 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
     glidepoint: glidepoint@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
-
         status = "okay";
-
-        sensitivity = "4x";
-
+        sensitivity = "2x";
         sleep-mode-enable;
-
-        /* Your DR pin */
-        data-ready-gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
     };
 };
