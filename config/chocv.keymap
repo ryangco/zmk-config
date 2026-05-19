@@ -54,7 +54,7 @@
         NAV {
             display-name = "Nav";
             bindings = <
-&kp PG_UP  &kp HOME   &kp UP     &kp END    &kp INS          &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &bootloader
+&kp PG_UP  &kp HOME   &kp UP     &kp END    &kp INS          &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &soft_off
 &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &u_caps_word     &none  &kp LSHFT     &kp LCTRL      &kp LALT     &kp LGUI
 &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))    &none  &u_to_U_NAV   &u_to_U_NUM    &kp RALT     &none
                       &kp K_APP  &kp SPACE  &kp TAB          &none  &none         &none
