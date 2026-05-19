@@ -3,4 +3,7 @@ if SHIELD_CHOCV
 config ZMK_KEYBOARD_NAME
     default "ChocV"
 
+config ZMK_POINTING
+    default y
+
 endif
