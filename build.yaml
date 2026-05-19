@@ -3,4 +3,4 @@ include:
   - board: nice_nano
     shield: chocv
   - board: nice_nano
-    shield: setting_reset
+    shield: settings_reset
