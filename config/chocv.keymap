@@ -54,7 +54,7 @@
         NAV {
             display-name = "Nav";
             bindings = <
-&kp PG_UP  &kp HOME   &kp UP     &kp END    &kp INS          &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &soft_off
+&kp PG_UP  &kp HOME   &kp UP     &kp END    &kp INS          &none  &u_to_U_BASE  &u_to_U_EXTRA  &u_to_U_TAP  &bootloader
 &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &u_caps_word     &none  &kp LSHFT     &kp LCTRL      &kp LALT     &kp LGUI
 &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))    &none  &u_to_U_NAV   &u_to_U_NUM    &kp RALT     &none
                       &kp K_APP  &kp SPACE  &kp TAB          &none  &none         &none
@@ -64,7 +64,7 @@
         MOUSE {
             display-name = "Mouse";
             bindings = <
-&msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none            &none  &u_to_U_BASE   &u_to_U_EXTRA  &u_to_U_TAP  &soft_off
+&msc SCRL_UP    &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none            &none  &u_to_U_BASE   &u_to_U_EXTRA  &u_to_U_TAP  &bootloader
 &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none            &none  &kp LSHFT      &kp LCTRL      &kp LALT     &kp LGUI
 &kp LG(Z)       &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LS(LG(Z))    &none  &u_to_U_MOUSE  &u_to_U_SYM    &kp RALT     &none
                                 &mkp MB3        &mkp MB1         &mkp MB2         &none  &none          &none
@@ -74,7 +74,7 @@
         MEDIA {
             display-name = "Media";
             bindings = <
-&rgb_ug RGB_HUI  &kp C_BRIGHTNESS_DEC  &kp C_VOL_UP  &kp C_BRIGHTNESS_INC  &rgb_ug RGB_TOG      &none  &u_to_U_BASE   &u_to_U_EXTRA  &u_to_U_TAP  &soft_off
+&rgb_ug RGB_HUI  &kp C_BRIGHTNESS_DEC  &kp C_VOL_UP  &kp C_BRIGHTNESS_INC  &rgb_ug RGB_TOG      &none  &u_to_U_BASE   &u_to_U_EXTRA  &u_to_U_TAP  &bootloader
 &rgb_ug RGB_EFF  &kp C_PREV            &kp C_VOL_DN  &kp C_NEXT            &ext_power EP_TOG    &none  &kp LSHFT      &kp LCTRL      &kp LALT     &kp LGUI
 &u_bt_sel_0      &u_bt_sel_1           &u_bt_sel_2   &u_bt_sel_3           &u_out_tog           &none  &u_to_U_MEDIA  &u_to_U_FUN    &kp RALT     &none
                                        &kp C_MUTE    &kp C_PP              &kp C_STOP           &none  &none          &none
