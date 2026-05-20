@@ -1,6 +1,6 @@
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: chocv
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
