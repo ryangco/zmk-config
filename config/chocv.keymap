@@ -502,37 +502,13 @@
 
         l_par {
             bindings = <&lpar_lt>;
-            key-positions = <17 16>;
+            key-positions = <6 7>;
             layers = <0>;
         };
 
         r_par {
             bindings = <&rpar_gt>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
-
-        l_bkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <6 7>;
-            layers = <0>;
-        };
-
-        r_bkt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <8 7>;
-            layers = <0>;
-        };
-
-        l_bkc {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <26 27>;
-            layers = <0>;
-        };
-
-        r_bkc {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <28 27>;
+            key-positions = <7 8>;
             layers = <0>;
         };
     };
