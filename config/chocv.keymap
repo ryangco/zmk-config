@@ -130,6 +130,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
@@ -137,6 +138,7 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
@@ -482,7 +484,7 @@
 
         paste {
             bindings = <&c_v>;
-            key-positions = <23>;
+            key-positions = <23 22>;
             layers = <0>;
         };
 
